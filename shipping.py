@@ -1,6 +1,6 @@
-price = eval(input('>> input the price'))
+price = eval(input('>> 가격을 입력하시오. '))
 
 if price >= 20000:
-    print("Shipping Fee Is Free")
+    print("무료입니다.")
 else:
-    print("Shipping Fee Is \\3000")
+    print("배송료는 3000원 입니다.")
